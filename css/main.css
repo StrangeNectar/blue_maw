@@ -72,6 +72,9 @@
 .partner-section--header {
 	padding: 20px;
 }
+.is-home-page--hover-box {
+	height: 300px;
+}
 /*
  *  END HOME PAGE STYLES
  * */
@@ -107,6 +110,12 @@
 body, html {
 	overflow-x: hidden;
 }
+.pioneer-village-sub-page--header {
+	font-size: 2em;
+	text-transform: uppercase;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
 
 /*Fixes for the weird slider margin*/
 .page-content, .entry-content, .entry-summary {
@@ -116,9 +125,14 @@ body, html {
   margin: auto!important;
 }
 .maw-header {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 700;
-  text-align: center;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 45px!important;
+}
+.maw-header > h4 {
+	padding: 45px!important;
 }
 
 
@@ -197,19 +211,18 @@ body, html {
 .sub-page--content {
 	margin: 45px;
 }
+
 #pseudo-featured--image {
-	width: 100%;
-	max-height: 450px;
-}
-#pseudo-featured--image > figure {
-	width: 100%!important;
-}
-#pseudo-featured--image > figure > div {
-	width: 100%!important;
+	max-height: 75%;
+	width: 1024px;
+	display: flex;
 }
 #pseudo-featured--image > figure > div > img {
 	width: 100%!important;
+	object-fit: cover;
+	margin: auto;
 }
+
 /*
  *  START SUB-PAGE STYLES
  * */
