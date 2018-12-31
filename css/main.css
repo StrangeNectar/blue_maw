@@ -216,12 +216,12 @@ body, html {
 /*
  *  START CONTACT FORM STYLES
  * */
-.wpcf7-form {
-	display: flex;	
-	width: 100%;
+.maw-form-main--wrapper > div {
+	margin: auto!important;
 }
-.maw-form-main--wrapper {
-	margin: auto;
+.wpcf7-text, .wpcf7-textarea {
+	height: 50px!important;
+	border-radius: 7px!important;
 }
 /*
  *  END CONTACT FORM STYLES
