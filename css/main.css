@@ -213,3 +213,16 @@ body, html {
 /*
  *  START SUB-PAGE STYLES
  * */
+/*
+ *  START CONTACT FORM STYLES
+ * */
+.wpcf7-form {
+	display: flex;	
+	width: 100%;
+}
+.maw-form-main--wrapper {
+	margin: auto;
+}
+/*
+ *  END CONTACT FORM STYLES
+ * */
