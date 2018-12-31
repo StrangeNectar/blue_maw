@@ -135,9 +135,32 @@ body, html {
 	padding: 45px!important;
 }
 
+.column-has--margin {
+	margin: 75px auto 75px auto!important;
+}
+
 
 /*
  *  END GLOBAL STYLES
+ * */
+/*
+ *  START GLOBAL FONT STYLES
+ * */
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.5em;
+}
+h4 {
+	margin: 45px auto 45px auto;
+	font-size: 1.75em;
+}
+/*
+ *  END GLOBAL FONT STYLES
  * */
 
 /*
@@ -213,8 +236,8 @@ body, html {
 }
 
 #pseudo-featured--image {
-	max-height: 75%;
-	width: 1024px;
+	width: 100%!important;
+	max-height: 80%;
 	display: flex;
 }
 #pseudo-featured--image > figure > div > img {
@@ -222,7 +245,6 @@ body, html {
 	object-fit: cover;
 	margin: auto;
 }
-
 /*
  *  START SUB-PAGE STYLES
  * */
@@ -239,3 +261,11 @@ body, html {
 /*
  *  END CONTACT FORM STYLES
  * */
+
+/*
+ *  START MISC STYLES
+ * */
+#tribe-events-content-wrapper {
+	margin-top: 45px;
+}
+
