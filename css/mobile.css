@@ -10,8 +10,12 @@
   .main-navigation li {
     font-size: 0.65em;
   }
-  .menu-main--container {
+  .menu-main-container {
     justify-content: right;
+  }
+  #primary-menu {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 /*
