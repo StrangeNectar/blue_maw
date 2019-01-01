@@ -3,19 +3,48 @@
 */
 @media only screen and (max-width: 768px) {
   .is-mobile--menu {
-    transform: translateX(-62%);
+    transform: translateX(-100%);
     background: black;
     height: 100%;
+    transition: all 0.7s ease;
   }
   .main-navigation li {
     font-size: 0.65em;
   }
   .menu-main-container {
     justify-content: right;
+    padding-top: 75px;
   }
   #primary-menu {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .toggled {
+    transform: translateX(-25%);
+  }
+  .menu-toggle {
+    display: fixed;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+  }
+  .hamburger-menu {
+    position: absolute;
+    display: block;
+    z-index: 14;
+    left: 10px;
+    top: 10px;
+    width: 75px;
+    height: 75px;
+  }
+  .line {
+    margin: 10px auto 10px auto;
+    position: relative;
+    width: 100%;
+    background-color: white;
+    height: 3px;
+    z-index: 15;
+    display: block;
   }
 }
 /*

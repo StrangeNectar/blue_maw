@@ -27,6 +27,11 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'blue_maw' ); ?></a>
 
 	<header id="masthead" class="site-header">
+		<div class="hamburger-menu">
+			<span class="line"></span>
+			<span class="line"></span>
+			<span class="line"></span>
+		</div>
 		<nav id="site-navigation" class="main-navigation is-mobile--menu">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blue_maw' ); ?></button>
 
