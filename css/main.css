@@ -131,9 +131,6 @@ body, html {
 	text-transform: uppercase;
 	padding: 45px!important;
 }
-.maw-header > h4 {
-	padding: 45px!important;
-}
 
 .column-has--margin {
 	margin: 75px auto 75px auto!important;
@@ -156,7 +153,6 @@ h3 {
 	font-size: 1.5em;
 }
 h4 {
-	margin: 45px auto 45px auto;
 	font-size: 1.75em;
 }
 /*
@@ -234,10 +230,17 @@ h4 {
 .sub-page--content {
 	margin: 45px;
 }
-
 #pseudo-featured--image {
+	width: 100%;
+	max-height: 450px;
+}
+#pseudo-featured--image > figure {
 	width: 100%!important;
-	max-height: 80%;
+}
+#pseudo-featured--image > figure > div {
+	width: 100%!important;
+	max-height: 75%;
+	width: 1024px;
 	display: flex;
 }
 #pseudo-featured--image > figure > div > img {
